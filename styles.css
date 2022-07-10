@@ -170,3 +170,29 @@ footer > p {
 .signup__btn {
     border: var(--white) 2px solid;
 }
+#contact {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+#contact li {
+    font-size: var(--medium);
+}
+.contact__details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact__details p {
+    margin-bottom: 8px;
+}
+#contact h3 {
+    font-size: var(--medium);
+    margin-bottom: 8px;
+}
+.contact__address p {
+    margin-bottom: 5px;
+}
